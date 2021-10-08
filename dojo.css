@@ -1,0 +1,77 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Long Oval Button Style */
+.btn {
+  border-radius: 10px;
+  padding: 2px 30px;
+}
+
+/* Creating flexible rows*/
+.row {
+  display: flex;
+}
+.col, .col-2, .col-3 {
+  padding: 20px;
+  margin: 10px;
+  background-color: aquamarine;
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+.col-3 {
+  flex: 3;
+}
+
+/* Create a flexible nav bar */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  color: white;
+}
+.nav-title {
+  padding: 10px;
+}
+ul {
+  list-style: none;
+}
+a:link {
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.nav-links a {
+  color: lightgray;
+  padding-right: 20px;
+}
+.nav-links .active {
+  color: white;
+}
+.btn {
+  color: white;
+  background-color: cornflowerblue;
+  box-shadow: 2px 2px 2px 2px black;
+}

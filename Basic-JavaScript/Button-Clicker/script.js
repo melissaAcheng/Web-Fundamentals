@@ -5,7 +5,6 @@ function loginOut(element) {
   else {
     element.innerText = "Login";
   }
-  // element.innerText = (element.innerText == "Login" ? "Logout" : "Login")
 }
 
 function addDefinition(element) {

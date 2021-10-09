@@ -1,0 +1,32 @@
+#container {
+  padding: 20px;
+}
+
+#search {
+  color: seagreen;
+  border-color: seagreen;
+  border-radius: 10px;
+  padding: 2px 30px;
+}
+
+#add {
+  background-color: seagreen;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+}
+
+#create-account {
+  background-color: blue;
+  color: white;
+  border-color: black;
+  padding: 5px 25px;
+  box-shadow: 5px 5px black;
+}
+
+div {
+  margin: 10px;
+}

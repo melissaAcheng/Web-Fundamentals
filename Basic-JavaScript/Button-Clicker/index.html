@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dojonary</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+    <h1>Dojonary</h1>
+    <input type="text" placeholder="Search">
+    <button type="button" onclick="loginOut(this)">Login</button>
+  </div>
+  <div id="content">
+    <div id="left-panel">
+      <div class="word-box">
+        <div class="word">
+          <h1>ninja</h1>
+          <p><i>noun</i></p>
+          <p>Plural: <i>ninjas</i></p>
+          <button type="button" onclick="likedMessage(this)">13 likes</button>
+        </div>
+        <div class="definition">
+          <p>A practitioner skilled in the <a href="#">Japanese </a>art of <a href="#">ninjutsu</a></p>
+        </div>
+      </div>
+      <div class="word-box">
+        <div class="word">
+          <h1>ninja</h1>
+          <p><i>noun</i></p>
+          <p>Plural: <i>ninjas</i></p>
+          <button type="button" onclick="likedMessage(this)">37 likes</button>
+        </div>
+        <div class="definition">
+          <p>A <a href="#">programmer </a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+        </div>
+      </div>
+    </div>
+    <div id="right-panel">
+      <div class="box">
+        <h2>Dojonary is<br> defined by <b>YOU</b></h2>
+        <button type="button" onclick="addDefinition(this)">Add Definition</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

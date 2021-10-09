@@ -1,0 +1,58 @@
+* {
+  outline: 1px solid black;
+}
+
+body {
+  overflow: hidden;
+  background-image: url(mountains.jpeg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rebeccapurple;
+  font-size: 50px;
+}
+
+.green {
+  color: green;
+}
+
+#red {
+  color: tomato;
+}
+
+p {
+  text-align: center;
+  background: #ffffff;
+}
+
+.quote p {
+  color: darkslategray;
+  font-style: italic;
+  overflow: scroll;
+}
+
+input {
+  padding: 5px;
+  border-color: rebeccapurple;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid rebeccapurple;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+}
+
+.box p {
+  color: red;
+  text-decoration: line-through;
+  font-weight: bold;
+  font-family: cursive;
+}

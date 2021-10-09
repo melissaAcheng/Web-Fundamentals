@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+</head>
+<body>
+  <h1>Melissa Cheng</h1>
+  <div>
+    <img src="portfolio-imgs/IMG_2993.jpg" alt="Melissa Cheng Profile" style="width: 200px; height: 200px;">
+  </div>
+  <div>
+    <a href="https://github.com/melissaAcheng" target="_blank"><img src="portfolio-imgs/github.png" alt="GitHub logo" style="width: 42px;height:42px;"></a>
+    <a href="https://www.linkedin.com/in/melissa-a-cheng/" target="_blank"><img src="portfolio-imgs/linkedin.png" alt="LinkedIn logo" style="width: 42px;height:42px;"></a>
+    <a href="mailto:melcheng12@gmail.com" target="_blank"><img src="portfolio-imgs/email.png" alt="Email logo" style="width: 42px;height:42px;"></a>
+  </div>
+  <p>Welcome to my portfolio website! I grew up on Long Island, but now call Queens, NY my home. I love eating out at different restaurants with friends.</p>
+  <p>I started coding last year during lockdown. Here is an example of a project I created from scratch following <a href="https://www.theodinproject.com/dashboard" target="_blank">The Odin Project </a>: <a href="https://melissaacheng.github.io/etch-a-sketch/" target="_blank">etch-a-sketch</a></p>
+  <h2>Favorite Food Spots</h2>
+  <div>
+    <table>
+      <tr>
+        <th>Cuisine</th>
+        <th>Restaurant</th>
+        <th>Yelp Rating</th>
+        <th>Location</th>
+        <th>Website</th>
+      </tr>
+      <tr>
+        <td>Korean</td>
+        <td>Bangia</td>
+        <td>4/5</td>
+        <td>Koreatown</td>
+        <td><a href="https://www.bangianyc.com/">https://www.bangianyc.com/</a></td>
+      </tr>
+      <tr>
+        <td>Indian</td>
+        <td>Ashoka Indian Restaurant</td>
+        <td>4.5/5</td>
+        <td>Upper West Side</td>
+        <td><a href="https://www.ashokanyc.com/">https://www.ashokanyc.com/</a></td>
+      </tr>
+    </table>
+  </div>
+  <h2>Contact Me</h2>
+  <form>
+    <div>
+      <label>Name: </label>
+      <input type="text" name="name">
+      <label>Email: </label>
+      <input type="text" name="email">
+    </div>
+    <br>
+    <div>
+      <label>Message: </label>
+      <textarea name="message" id="message" cols="20" rows="3"></textarea>
+    </div>
+    <br>
+    <input type="submit" value="Send Message">
+  </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<!-- Header -->
+  <div id="header">
+    <h1>Network</h1>
+  </div>
+
+  <div id="container">
+    <h1>Your Feed</h1>
+    <!-- User Profile Information -->
+    <div id="content">
+      <div id="l-panel">
+        <div class="profile">
+          <img src="user-circle.png" alt="profile picture">
+          <a href="#">Add an avatar</a>
+          <h2>James Doe</h2>
+        </div>
+      </div>
+      <!-- Posts -->
+      <div id="r-panel">
+        <div class="message-box">
+          <div class="row">
+            <h2>Neil M</h2>
+            <p id="like-count">0 like(s)</p>
+            <button id="like-btn-0" onclick="addLike()">Like</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illum repellendus quas?</p>
+        </div>
+        <div class="message-box">
+          <div class="row">
+            <h2 class="username" id="1">Nichole K</h2>
+            <p id="like-count-1">0 like(s)</p>
+            <button id="like-btn-1" onclick="addLike1()">Like</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illum repellendus quas?</p>
+        </div>
+        <div class="message-box">
+          <div class="row">
+            <h2 class="username" id="2">Jim R</h2>
+            <p id="like-count-2">0 like(s)</p>
+            <button id="like-btn-2" onclick="addLike2()">Like</button>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illum repellendus quas?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

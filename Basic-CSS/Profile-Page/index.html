@@ -35,7 +35,7 @@
               <img src="images/jane-m.jpg" alt="Jane Doe" class="profile-pic" />
             </div>
             <div class="user-body">
-              <h1>Jane Doe</h1>
+              <h1 id="user-fullname">Jane Doe</h1>
               <h3>
                 <img
                   src="icons/map-marker.png"
@@ -49,7 +49,7 @@
               </p>
               <p>
                 <img src="icons/gear.png" alt="gear" class="small-icon" />
-                <a href="#">edit profile</a>
+                <a href="#" onclick="editProfile()">edit profile</a>
               </p>
             </div>
           </div>
@@ -72,32 +72,36 @@
             </div>
             <div class="requests-body">
               <ul>
-                <li>
+                <li id="request-1">
                   <img src="images/todd-s.jpg" alt="Todd S" class="id-pic" />
                   <p class="name">Todd E</p>
                   <img
                     src="icons/accept-circle.png"
                     alt="accept-circle"
                     class="req-btn"
+                    onclick="confirm(this)"
                   />
                   <img
                     src="icons/close-circle.png"
                     alt="close-circle"
                     class="req-btn"
+                    onclick="deny(this)"
                   />
                 </li>
-                <li>
+                <li id="request-2">
                   <img src="images/phil-s.jpg" alt="Phil K" class="id-pic" />
                   <p class="name">Phil K</p>
                   <img
                     src="icons/accept-circle.png"
                     alt="accept-circle"
                     class="req-btn"
+                    onclick="confirm(this)"
                   />
                   <img
                     src="icons/close-circle.png"
                     alt="close-circle"
                     class="req-btn"
+                    onclick="deny(this)"
                   />
                 </li>
               </ul>
@@ -143,5 +147,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -22,7 +22,7 @@
         <h2>San Jose</h2>
         <p>
           show temperature in
-          <select>
+          <select name="temperature-scale" onchange="convert(this)">
             <option onclick="celsius()">°C</option>
             <option onclick="farenheit()">°F</option>
           </select>
@@ -34,8 +34,8 @@
           <img src="assets/some_rain.png" alt="rain">
           <p>some rain</p>
           <div class="temperature flex space-around">
-            <p id="col-1-high" class="color-h">24°</p>
-            <p id="col-1-low" class="color-l">18°</p>
+            <span class="high" id="temp1">24</span>
+            <span class="low" id="temp2">18</span>
           </div>
         </div>
         <div class="day">
@@ -43,8 +43,8 @@
           <img src="assets/some_sun.png" alt="sun">
           <p>some sun</p>
           <div class="temperature flex space-around">
-            <p class="color-h">27°</p>
-            <p class="color-l">19°</p>
+            <span class="high" id="temp3">27</span>
+            <span class="low" id="temp4">19</span>
           </div>
         </div>
         <div class="day">
@@ -52,8 +52,8 @@
           <img src="assets/some_clouds.png" alt="clouds">
           <p>some clouds</p>
           <div class="temperature flex space-around">
-            <p class="color-h">21°</p>
-            <p class="color-l">16°</p>
+            <span class="high" id="temp5">21</span>
+            <span class="low" id="temp6">16</span>
           </div>
         </div>
         <div class="day">
@@ -61,8 +61,8 @@
           <img src="assets/some_sun.png" alt="sun">
           <p>some sun</p>
           <div class="temperature flex space-around">
-            <p class="color-h">26°</p>
-            <p class="color-h">21°</p>
+            <span class="high" id="temp7">26</span>
+            <span class="low" id="temp8">21</span>
           </div>
         </div>
       </div>

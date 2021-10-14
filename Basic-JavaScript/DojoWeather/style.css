@@ -67,6 +67,18 @@ h2 {
   box-shadow: 2px 2px black;
 }
 
+.high {
+  color: red;
+}
+
+.low {
+  color: blue;
+}
+
+.high::after, .low::after {
+  content: "°";
+}
+
 /* Tools */
 
 .flex {
@@ -89,12 +101,4 @@ h2 {
 
 .jc-center {
   justify-content: center;
-}
-
-.color-h {
-  color: red;
-}
-
-.color-l {
-  color: blue;
 }

@@ -29,8 +29,9 @@ for (let k = 4; k >= -4; k -= 1.5) {
 var sum = 0;
 
 for (let l = 1; l <= 100; l++) {
-  console.log(sum += l);
+  sum += l;
 }
+console.log(sum);
 
 // 5. Factorial
 // Write code that will multiply all of the values from 1-12 onto some variable product and at the end console.log the result 1 * 2 * 3 * ... * 10 * 11 * 12. We should get back 479001600 at the end.
@@ -38,5 +39,6 @@ for (let l = 1; l <= 100; l++) {
 var product = 1;
 
 for (let m = 1; m <= 12; m++) {
-  console.log(product *= m);
+  product *= m;
 }
+console.log(product);

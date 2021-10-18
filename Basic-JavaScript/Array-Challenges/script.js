@@ -1,9 +1,14 @@
 function alwaysHungry(arr) {
   for (let i = 0; i < arr.length; i++) {
+    var foodCount = 0;
     if (arr[i] == "food") {
       console.log("yummy");
+      foodCount++;
     } 
-  } console.log("I'm hungry");
+  } 
+  if (foodCount == 0) {
+    console.log("I'm hungry");
+  }
   }
 
 alwaysHungry([3.14, "food", "pie", true, "food"]);
@@ -28,11 +33,11 @@ function betterThanAverage(arr) {
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
-  sum = sum / arr.length;
+  var avg = sum / arr.length;
 
   var count = 0;
   for (let j = 0; j < arr.length; j++) {
-    if (arr[j] > sum) {
+    if (arr[j] > avg) {
       count++;
     }
   }

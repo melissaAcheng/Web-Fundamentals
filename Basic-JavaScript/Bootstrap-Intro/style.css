@@ -1,7 +1,11 @@
 /*
  * Globals
  */
-
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 2px dotted pink; */
+}
 
 /* Custom default button */
 .btn-secondary,
@@ -25,9 +29,6 @@ body {
 
 .cover-container {
   max-width: 42em;
-  height: 100%;
-  align-items: center;
-  /* justify-content: center; */
 }
 
 
